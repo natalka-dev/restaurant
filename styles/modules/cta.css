@@ -1,0 +1,17 @@
+.cta{
+  font-family: var(--title-font);
+  font-weight: var(--title-font-weight);
+  font-size: var(--title-font-size);
+  font-style: normal;
+  line-height: var(--title-font-height);
+  color: var(--white);
+  background-color: var(--black);
+  text-decoration: none;
+  padding: 0.88rem 2.93rem 0.88rem 2.93rem;
+  display: inline-block;
+}
+.cta:hover{
+   text-decoration: underline;
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.188rem;
+}

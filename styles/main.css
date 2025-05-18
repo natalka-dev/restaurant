@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Modules */
+@import "modules/appBar.css";
+@import "pages/home.css";
+@import "modules/cta.css";
+@import "modules/redBanner.css";
+@import "modules/footer.css";
+@import "modules/contactInfo.css";
+@import "pages/menu.css";
+@import "pages/contact.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /*colors*/
+  --red-highlight: #d2483d;
+  --light-grey: #f3f3f3;
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Text configuration */
+
+  /* Font Family */
+  --body-font: "Montserrat";
+  --body-hightlight-font: "Montserrat";
+  --title-font: "Bebas Neue";
+  --header-font: "Bebas Neue";
+
+  /* Font Weight */
+
+  --body-font-weight: 400;
+  --body-highlight-font-weight: 600;
+  --header-font-weight: 400;
+  --title-font-weight: 400;
+  /* Font size */
+  --body-font-size: 1.25rem;
+  --body-highlight-font-size: 1.25rem;
+  --header-font-size: 4.5rem;
+  --title-font-size: 1.5rem;
+  /* Line Height */
+  --body-line-height: 1.5rem;
+  --body-highlight-line-height: 1.5rem;
+  --header-line-height: 5.375rem;
+  --title-line-height: 1.75rem;
+}
+/* Les éléments globaux */
+body {
+  background-color: var(--light-grey);
+  font-family: var(--body-font);
+  font-style: normal;
+  font-weight: var(--body-font-weight);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  color: var(--black);
+}
+h1 {
+  font-family: var(--header-font);
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  font-style: normal;
+  line-height: var(--header-line-height);
+  color: var(--black);
+}
+h2 {
+  font-family: var(--title-font);
+  font-size: var(--title-font-size);
+  font-style: normal;
+  font-weight: var(--title-font-weight);
+  line-height: var(--title-line-height);
+  color: var(--black);
+  text-decoration: underline var(--red-highlight);
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
+}

@@ -1,0 +1,9 @@
+footer{
+  background-color: var(--black);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3.13rem;
+  padding-right: 4.5rem ;
+  height: 13.5rem;
+}
