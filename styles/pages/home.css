@@ -54,7 +54,6 @@ padding: 2.67rem 7.6rem 0rem 0rem;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-  
      margin: 2.25rem 0 4rem 0;
   }
     
@@ -81,3 +80,48 @@ padding: 2.67rem 7.6rem 0rem 0rem;
   height: 15.5rem;
   object-fit: cover;
 }
+@media (max-width: 768px){
+  .hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+.hero__titleContainer{
+  padding: 0rem;
+  text-align: center;
+}
+.hero__icon{
+  height: 14rem;
+  width: 14rem;
+  margin: 4.5rem;
+}
+
+
+.adresses__container{
+  margin: 0rem 0 2rem 0;
+}
+ .adresses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.6rem;
+    margin-top: 2.25rem;
+  }
+  .savoirfaire__container p{
+      max-width: 16rem;
+      text-align: center;
+  }
+  .savoirfaire__container{
+    margin: 2rem 0 2rem 0;
+  }
+  .social__container{
+    margin: 0rem 0 4rem 0;
+  }
+  .social__container--images{
+     display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2rem;
+  }
+  }

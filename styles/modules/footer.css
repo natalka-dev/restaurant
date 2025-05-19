@@ -7,3 +7,10 @@ footer{
   padding-right: 4.5rem ;
   height: 13.5rem;
 }
+@media (max-width: 768px) {
+  footer{
+    padding-right: 0;
+    justify-content: center;
+    height: 11.5rem;
+  }
+}

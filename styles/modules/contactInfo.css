@@ -15,3 +15,12 @@
   max-width: 72rem;
   text-align: center;
 }
+@media (max-width: 768px){
+.contactInfo__container {
+  margin: 2rem 0 2rem 0;
+
+}
+.contactInfo__container p {
+  max-width: 15.72rem;}
+}
+ 

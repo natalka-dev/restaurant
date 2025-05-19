@@ -29,3 +29,19 @@
     text-underline-offset: 0.25rem;
   text-decoration-thickness: 0.188rem;
 }
+@media (max-width: 768px) {
+  .appBar {
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .appBar__icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .appBar__nav {
+    padding-left: 1rem;
+  }
+}
